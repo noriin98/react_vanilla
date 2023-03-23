@@ -10,9 +10,14 @@ h1 {
     font-size: 96px;
 }
 
+h2 {
+    font-size: 64px;
+}
+
 p {
     font-family: 'Poppins', serif;
-    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 .hero {
@@ -41,4 +46,28 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    background: white;
+    color: #6c63ff;
+    border: 1px solid #6c63ff;
+        border-radius: 4px;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+}
+
+.project-des {
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 60px;
+    }
+    .project-des {
+            padding: 0;
+            text-align: center;
+        }
 }
