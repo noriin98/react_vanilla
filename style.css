@@ -20,6 +20,37 @@ p {
     line-height: 1.7;
 }
 
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    font-family: 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: #6c63ff;
+}
+
+nav li.active a{
+    color: #6c63ff;
+}
+
 .hero {
     background: #f9f7fe;
     text-align: center;
